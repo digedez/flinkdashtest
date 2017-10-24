@@ -1,0 +1,849 @@
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+        <div class="row">
+
+
+          <div class="col-md-6 col-sm-12">
+              <div class="portlet light ">
+                  <div class="portlet-title">
+                      <div class="caption caption-md">
+                          <span class="caption-subject font-dark bold uppercase">Ingresos a la App</span>
+                      </div>
+                  </div>
+                  <div class="portlet-body">
+                      <div class="row list-separated">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <div class="dashboard-stat3">
+                                      <div class="progress-info">
+                                          <div class="font-hg font-blue">
+                                                  {{ NumUsr }}
+                                          </div>
+                                              <div class="font-grey-cascade font-md">
+                                                  <strong>Número ingresos a la App</strong>
+                                              </div>
+                                              <br>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <div class="dashboard-stat3">
+                                      <div class="progress-info">
+                                          <div class="font-hg font-yellow">
+                                                   {{ NumUsrAct }}
+                                              </div>
+                                              <div class="font-grey-cascade font-md">
+                                                  <strong> No. Usuarios </strong>
+                                              </div>
+                                              <br>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <div class="dashboard-stat3">
+                                      <div class="progress-info">
+                                          <div class="font-hg font-yellow">
+                                                   {{ NumUsrAct }}
+                                              </div>
+                                              <div class="font-grey-cascade font-md">
+                                                  <strong> Modulo más utilizado </strong>
+                                              </div>
+                                              <br>
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <br>
+
+          <div class="col-md-6">
+            <div style="display: block;">
+            <!--canvas baseChart width="400" height="400"
+                        [datasets]="lineChartData"
+                        [labels]="lineChartLabels"
+                        [options]="lineChartOptions"
+                        [colors]="lineChartColors"
+                        [legend]="lineChartLegend"
+                        [chartType]="lineChartType"
+                        (chartHover)="chartHovered($event)"
+                        (chartClick)="chartClicked($event)"></canvas-->
+            </div>
+          </div>
+            <div class="col-md-6 col-sm-12">
+
+                <div class="portlet light ">
+                    <div class="portlet-title">
+                        <div class="caption caption-md">
+
+                            <span class="caption-subject font-dark bold uppercase">Usuarios</span>
+                        </div>
+                    </div>
+            <div class="portlet-body">
+                <div class="row list-separated">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-blue">
+                                            {{ NumUsr }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Número de Usuarios</strong>
+                                        </div>
+                                        <br>
+                                    <!--div class="progress">
+                                        <span style="width: 85%;" class="progress-bar progress-bar-success blue">
+                                        <span class="sr-only">85% change</span>
+                                        </span>
+                                    </div-->
+                                    <!--div class="status">
+                                            <strong>
+                                                <span class="font-grey-cascade font-sm">
+                                                 Progreso
+                                            </span>
+                                            <span class="status-number font-sm">
+                                                 50%
+                                            </span>
+                                            </strong>
+
+                                    </div-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-yellow">
+                                             {{ NumUsrAct }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Número de Usuarios Activos </strong>
+                                        </div>
+                                        <br>
+                                    <!--div class="progress">
+                                        <span style="width: 85%;" class="progress-bar progress-bar-success yellow">
+                                        <span class="sr-only">85% change</span>
+                                        </span>
+                                    </div>
+                                    <div class="status">
+                                            <strong>
+                                                <span class="font-grey-cascade font-sm">
+                                                 Progreso
+                                            </span>
+                                            <span class="status-number font-sm">
+                                                 50%
+                                            </span>
+                                            </strong>
+
+                                    </div-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-red">
+                                              {{ TotalG }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Tarjetas entregadas</strong>
+                                        </div>
+                                        <br>
+                                    <div class="progress">
+                                        <span style="width: 85%;" class="progress-bar progress-bar-success red">
+                                        <span class="sr-only">85% change</span>
+                                        </span>
+                                    </div>
+                                    <div class="status">
+                                            <strong>
+                                                <span class="font-grey-cascade font-sm">
+                                                 Progreso
+                                            </span>
+                                            <span class="status-number font-sm">
+                                                 50%
+                                            </span>
+                                            </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-6 col-sm-12">
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <span class="caption-subject font-dark bold uppercase">Cuentas Banco</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="row list-separated">
+                      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-blue">
+                                            {{ NumUsr }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Santander</strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-yellow">
+                                             {{ NumUsrAct }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Banamex </strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="dashboard-stat3">
+                                    <div class="progress-info">
+                                        <div class="font-hg font-blue">
+                                                {{ NumUsr }}
+                                            </div>
+                                            <div class="font-grey-cascade font-md">
+                                                <strong>Banorte</strong>
+                                            </div>
+                                            <br>
+                                    </div>
+                                </div>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-6 col-sm-12">
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <span class="caption-subject font-dark bold uppercase">Usuarios sin dinero al final del Mes</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="row list-separated">
+                      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-blue">
+                                            {{ NumUsr }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Porcentaje</strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-yellow">
+                                             {{ NumUsrAct }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong> No. Usuarios </strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--div class="col-md-6 col-sm-12">
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <span class="caption-subject font-dark bold uppercase">Totales</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="row list-separated">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-blue">
+                                          $  {{ Total }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Total</strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-yellow">
+                                          $   {{ TotalG }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong>Total en Gastos </strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat3">
+                                <div class="progress-info">
+                                    <div class="font-hg font-red">
+                                             $ {{ TotalG }}
+                                        </div>
+                                        <div class="font-grey-cascade font-md">
+                                            <strong> Total en Metas </strong>
+                                        </div>
+                                        <br>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+</div-->
+
+<!--div class="col-md-6" style="margin-bottom: 10px">
+        <table class="table table-responsive table-condensed">
+          <tr>
+            <th *ngFor="let label of lineChartLabels">{{label}}</th>
+          </tr>
+          <tr *ngFor="let d of lineChartData">
+            <td *ngFor="let label of lineChartLabels; let j=index">{{d && d.data[j]}}</td>
+          </tr>
+        </table>
+        <button (click)="randomize()">CLICK</button>
+</div-->
+
+
+            <!--div class="col-md-6 col-sm-12">
+                <div class="portlet light">
+                     <div class="portlet-title">
+                        <div class="caption caption-md">
+                            <span class="caption-subject font-dark bold uppercase">DETALLES DE TU PRÉSTAMO</span>
+                        </div>
+
+                    </div>
+                    <div class="portlet-body">
+
+                        <div class="cd-horizontal-timeline mt-timeline-horizontal" data-spacing="110">
+                            <div class="timeline">
+                                <div class="events-wrapper">
+                                    <div class="events">
+                                        <ol>
+                                           <li>
+                                                <a href="#0" data-date="16/01/2014" class="border-after-red bg-after-red selected">$3,050.00 <br>
+                                                    <span class="caption-helper">Pago 31 de Enero</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" data-date="28/02/2014" class="border-after-red bg-after-red">$3,450.00<br><span>Pago 13 Feb</span></a>
+                                            </li>
+
+                                        </ol>
+                                        <span class="filling-line bg-red" aria-hidden="true"></span>
+
+                                    </div>
+
+
+                                </div>
+
+                                <ul class="cd-timeline-navigation mt-ht-nav-icon">
+                                    <li>
+                                        <a href="#0" class="prev inactive btn btn-outline red md-skip">
+                                            <i class="fa fa-chevron-left"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#0" class="next btn btn-outline red md-skip">
+                                            <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                         <br>
+                    </div>
+                </div>
+            </div !-->
+
+        </div>
+
+
+        <div class="row">
+            <!--div class="col-lg-6 col-xs-12 col-sm-12">
+                <div class="portlet light">
+                    <div class="portlet-title tabbable-line">
+                            <div class="caption caption-md">
+                                <span class="caption-subject font-dark bold uppercase">ÚLTIMOS MOVIMIENTOS</span>
+                            </div>
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a href="#tab_1_1" class="active" data-toggle="tab"> 7 días</a>
+                                </li>
+                                <li>
+                                    <a href="#tab_1_2" data-toggle="tab"> 30 días </a>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="portlet-body">
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab_1_1">
+                                <div class="scroller" style="height: 339px;" data-always-visible="1" data-rail-visible="0">
+                                    <ul class="feeds">
+
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New version v1.4 just lunched! </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> 20 mins </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-danger">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> Database server #12 overloaded. Please fix the issue. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 24 mins </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-info">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> New order received. Please take care of it. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 30 mins </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-success">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> New order received. Please take care of it. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 40 mins </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-warning">
+                                                            <i class="fa fa-plus"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> New user registered. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 1.5 hours </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-success">
+                                                            <i class="fa fa-bell-o"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> Web server hardware needs to be upgraded.
+                                                            <span class="label label-sm label-default "> Overdue </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 2 hours </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-default">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> New order received. Please take care of it. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 3 hours </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-warning">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> New order received. Please take care of it. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 5 hours </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-default">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> New order received. Please take care of it. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 21 hours </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab_1_2">
+                                <div class="scroller" style="height: 290px;" data-always-visible="1" data-rail-visible1="1">
+                                    <ul class="feeds">
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New order received </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> 10 mins </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="col1">
+                                                <div class="cont">
+                                                    <div class="cont-col1">
+                                                        <div class="label label-sm label-danger">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-col2">
+                                                        <div class="desc"> Order #24DOP4 has been rejected.
+                                                            <span class="label label-sm label-danger "> Take action
+                                                                <i class="fa fa-share"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col2">
+                                                <div class="date"> 24 mins </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="col1">
+                                                    <div class="cont">
+                                                        <div class="cont-col1">
+                                                            <div class="label label-sm label-success">
+                                                                <i class="fa fa-bell-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cont-col2">
+                                                            <div class="desc"> New user registered </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col2">
+                                                    <div class="date"> Just now </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div-->
+            <!-- div class="col-lg-6 col-xs-12 col-sm-12">
+                <div class="portlet light">
+                    <div class="portlet-title">
+                        <div class="caption caption-md">
+                            <span class="caption-subject font-dark bold uppercase">TÚ PRÓXIMA META</span>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="mt-element-overlay">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mt-overlay-1 mt-scroll-left">
+                                            <img src="assets/img-flink/playa-2.jpg" height="340px" width="470px" />
+                                             <div class="mt-overlay">
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <span class="caption-subject font-blue-sharp bold uppercase">VIAJE A LA PLAYA CON LOS AMIGOS</span>
+                                                 <ul class="mt-info">
+                                                    <li>
+                                                        <a class="btn default btn-outline" href="javascript:;">
+                                                            <i class="icon-magnifier"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn default btn-outline" href="javascript:;">
+                                                            <i class="icon-link"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <button type="button" class="btn btn-primary mt-ladda-btn ladda-button btn-circle" >
+                                                    <span class="ladda-label">Acelerar Meta</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div !-->
+        </div>
+
+<!-- END CONTENT -->
+<!-- BEGIN QUICK SIDEBAR -->
+
+<!-- END QUICK SIDEBAR -->
+</div>
+
+</div>
+<!-- END CONTAINER -->

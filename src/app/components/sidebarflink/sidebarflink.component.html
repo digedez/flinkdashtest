@@ -1,0 +1,357 @@
+
+  <div class="page-sidebar-wrapper">
+      <!-- BEGIN SIDEBAR -->
+      <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+      <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+      <div class="page-sidebar navbar-collapse collapse">
+          <!-- BEGIN SIDEBAR MENU -->
+          <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+          <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+          <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+          <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+          <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+          <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+          <ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+            <li  routerLinkActive="active">
+                <!--a href="../../../login.html"-->
+                <a href="">
+                <img src="https://digedez.github.io/flinkdash/assets//img-flink/homegris.png" width="25px" height="25px">
+                <span class="title">HOME</span>
+                </a>
+            </li>
+            <!--li  routerLinkActive="active">
+                <a [routerLink]="['tarjeta']" >
+                <img src="https://digedez.github.io/flinkdash/assets//img-flink/homegris.png" width="25px" height="25px">
+                <span class="title">TARJETA</span>
+                </a>
+            </li-->
+              <!--li routerLinkActive="active">
+                  <a href="#">
+
+                  <img src="https://digedez.github.io/flinkdash/assets//img-flink/administracion.png" width="25px" height="25px">
+                  <span class="title">ADMINISTRACIÓN</span>
+
+                  </a>
+              </li-->
+              <!--li routerLinkActive="active">
+
+                  <a href="#">
+                  <img src="https://digedez.github.io/flinkdash/assets//img-flink/metas.png" width="25px" height="25px">
+                  <span class="title">METAS</span>
+
+                  </a>
+              </li-->
+              <!--li routerLinkActive="active">
+                  <a [routerLink]="['transf']">
+                  <img src="https://digedez.github.io/flinkdash/assets//img-flink/transferencias.png" width="25px" height="25px">
+                  <span class="title">TRANSFERENCIAS</span>
+                  </a>
+              </li-->
+              <!--li routerLinkActive="active">
+                  <a [routerLink]="['prestamo']">
+                  <img src="https://digedez.github.io/flinkdash/assets//img-flink/prestamo.png" width="25px" height="25px">
+                  <span class="title">PRÉSTAMO</span>
+                  </a>
+              </li-->
+              <br>
+              <br>
+              <br>
+              <br>
+              <!--li class="nav-item  ">
+                      <a href="javascript:;" class="nav-link nav-toggle">
+                           <img src="https://digedez.github.io/flinkdash/assets//img-flink/ajustes.png" width="25px" height="25px">
+                          <span class="title"><strong>AJUSTES</strong></span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub-menu">
+                          <li class="nav-item  ">
+                              <a href="invitar_amigos.html" class="nav-link">
+                                  <span class="title">Invitar amigos</span>
+                              </a>
+                          </li>
+                          <li class="nav-item  ">
+                              <a href="bloquear_tarjeta.html" class="nav-link">
+                                  <span class="title">Bloquear tarjeta</span>
+                              </a>
+                          </li>
+                          <li class="nav-item  ">
+                              <a href="cambiar_contra.html" class="nav-link" >
+                                  <span class="title">Cambiar contraseña</span>
+                              </a>
+                          </li>
+                          <li class="nav-item  ">
+                              <a href="privacidad.html" class="nav-link ">
+                                  <span class="title">Privacidad</span>
+                              </a>
+                          </li>
+                          <li class="nav-item  ">
+                              <a href="contratos.html" class="nav-link" >
+                                  <span class="title">Contratos</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
+                   <li>
+                   <a href="javascript:;">
+                      <img src="https://digedez.github.io/flinkdash/assets//img-flink/cerrarsesion.png" width="25px" height="25px">
+                  <span class="title"><strong>CERRAR SESIÓN</strong></span>
+                  </a>
+              </li-->
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </ul>
+          <!-- END SIDEBAR MENU -->
+      </div>
+      <!-- END SIDEBAR -->
+  </div>
+
+  <!-- BEGIN CONTENT -->
+  <div class="page-content-wrapper">
+      <!-- BEGIN CONTENT BODY -->
+      <div class="page-content">
+          <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                      <div class="portlet light ">
+                          <div class="portlet-title">
+                              <div class="caption caption-md">
+
+                                  <span class="caption-subject font-dark bold uppercase">Usuarios</span>
+                              </div>
+                          </div>
+                  <div class="portlet-body">
+                      <div class="row list-separated">
+                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <div class="dashboard-stat3">
+                                      <div class="progress-info">
+                                          <div class="font-hg font-blue">
+                                                  {{ AppFirstOpen }}
+                                              </div>
+                                              <div class="font-grey-cascade font-md">
+                                                  <strong>Número de Usuarios Descargaron App</strong>
+                                              </div>
+                                              <br>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                     <div class="dashboard-stat3">
+                                         <div class="progress-info">
+                                             <div class="font-hg font-blue">
+                                                     0
+                                                 </div>
+                                                 <div class="font-grey-cascade font-md">
+                                                     <strong>Número de Usuarios con Tarjeta</strong>
+                                                 </div>
+                                                 <br>
+                                         </div>
+                                     </div>
+                                 </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <div class="dashboard-stat3">
+                                      <div class="progress-info">
+                                          <div class="font-hg font-yellow">
+                                                  {{ AppFirstOpen }}
+                                              </div>
+                                              <div class="font-grey-cascade font-md">
+                                                  <strong>Número de Usuarios Registrados </strong>
+                                              </div>
+                                              <br>
+
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+
+                  </div>
+              </div>
+              </div>
+
+
+
+            <div class="col-md-6 col-sm-12">
+                <div class="portlet light ">
+                    <div class="portlet-title">
+                        <div class="caption caption-md">
+                            <span class="caption-subject font-dark bold uppercase">Ingresos a la App</span>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="row list-separated">
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="dashboard-stat3">
+                                        <div class="progress-info">
+                                            <div class="font-hg font-blue">
+                                                    {{ Sesiones }}
+                                            </div>
+                                                <div class="font-grey-cascade font-md">
+                                                    <strong>Número ingresos a la App (10 s)</strong>
+                                                </div>
+                                                <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="dashboard-stat3">
+                                        <div class="progress-info">
+                                            <div class="font-hg font-yellow">
+                                                     {{ NumUsrAct }}
+                                                </div>
+                                                <div class="font-grey-cascade font-md">
+                                                    <strong> No. Usuarios </strong>
+                                                </div>
+                                                <br>
+                                        </div>
+                                    </div>
+                                </div-->
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="dashboard-stat3">
+                                        <div class="progress-info">
+                                            <div class="font-hg font-yellow">
+                                                     Administración
+                                                </div>
+                                                <div class="font-grey-cascade font-md">
+                                                    <strong> Modulo más utilizado </strong>
+                                                </div>
+                                                <br>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="col-md-6">
+              <div style="display: block;">
+              <!--canvas baseChart width="400" height="400"
+                          [datasets]="lineChartData"
+                          [labels]="lineChartLabels"
+                          [options]="lineChartOptions"
+                          [colors]="lineChartColors"
+                          [legend]="lineChartLegend"
+                          [chartType]="lineChartType"
+                          (chartHover)="chartHovered($event)"
+                          (chartClick)="chartClicked($event)"></canvas-->
+              </div>
+            </div>
+
+
+
+      <!--div class="col-md-6 col-sm-12">
+          <div class="portlet light ">
+              <div class="portlet-title">
+                  <div class="caption caption-md">
+                      <span class="caption-subject font-dark bold uppercase">Cuentas Banco</span>
+                  </div>
+              </div>
+              <div class="portlet-body">
+                  <div class="row list-separated">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="dashboard-stat3">
+                                  <div class="progress-info">
+                                      <div class="font-hg font-blue">
+                                              {{ NumUsr }}
+                                          </div>
+                                          <div class="font-grey-cascade font-md">
+                                              <strong>Santander</strong>
+                                          </div>
+                                          <br>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="dashboard-stat3">
+                                  <div class="progress-info">
+                                      <div class="font-hg font-yellow">
+                                               {{ NumUsrAct }}
+                                          </div>
+                                          <div class="font-grey-cascade font-md">
+                                              <strong>Banamex </strong>
+                                          </div>
+                                          <br>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <div class="dashboard-stat3">
+                                      <div class="progress-info">
+                                          <div class="font-hg font-blue">
+                                                  {{ NumUsr }}
+                                              </div>
+                                              <div class="font-grey-cascade font-md">
+                                                  <strong>Banorte</strong>
+                                              </div>
+                                              <br>
+                                      </div>
+                                  </div>
+                           </div>
+                  </div>
+              </div>
+          </div>
+      </div-->
+
+
+      <div class="col-md-6 col-sm-12">
+          <div class="portlet light ">
+              <div class="portlet-title">
+                  <div class="caption caption-md">
+                      <span class="caption-subject font-dark bold uppercase">Usuarios sin dinero al final del Mes</span>
+                  </div>
+              </div>
+              <div class="portlet-body">
+                  <div class="row list-separated">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="dashboard-stat3">
+                                  <div class="progress-info">
+                                      <div class="font-hg font-blue">
+                                            0 %
+                                          </div>
+                                          <div class="font-grey-cascade font-md">
+                                              <strong>Porcentaje</strong>
+                                          </div>
+                                          <br>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="dashboard-stat3">
+                                  <div class="progress-info">
+                                      <div class="font-hg font-yellow">
+                                              0
+                                          </div>
+                                          <div class="font-grey-cascade font-md">
+                                              <strong> No. Usuarios </strong>
+                                          </div>
+                                          <br>
+                                  </div>
+                              </div>
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="row">
+
+      </div>
+  <!-- END CONTENT -->
+  <!-- BEGIN QUICK SIDEBAR -->
+  <!-- END QUICK SIDEBAR -->
+  </div>
+
+  </div>
+  <!-- END CONTAINER -->

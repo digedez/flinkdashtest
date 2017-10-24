@@ -1,0 +1,78 @@
+import { Component, OnInit } from '@angular/core';
+//import {HttpClientModule} from '@angular/common/http';
+
+
+import { HomeService } from '../../services/home.service';
+//import { Http } from '@angular/http';
+//import 'rxjs/Rx';
+
+
+@Component({
+  selector: 'app-content',
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.css']
+})
+export class ContentComponent implements OnInit {
+
+  NumUsr:string ="10" ;
+
+  constructor(private _homeService: HomeService) { }
+
+  ngOnInit() {
+
+
+    /*
+    this._homeService.getHome()
+        .subscribe( data=>{
+          console.log(data[NumUsr]);
+          this.NumUsr.push( data[NumUsr]);
+        });
+    */
+
+
+
+    //this.NumUsr =
+    //var obj = JSON.parse(this._homeService.getHome());
+    //console.log(obj.NumUsr);
+    //alert(this._homeService.getHome());
+
+  }
+
+
+
+
+  consulta(){
+    console.log("test");
+    //this.NumUsr= this._homeService.getHome();
+    //alert(this.NumUsr);
+
+    //console.log(this.home)
+
+    //obj = JSON.parse(text);
+    //console.log(this._homeService.getHome()[1]);
+    //alert("test");
+  }
+
+
+
+  /*
+  constructor() { }
+
+  ngOnInit() {
+  }
+*/
+
+/*
+  results: string[];
+  // Inject HttpClient into your component or service.
+  constructor(private httpClient: HttpClient) {}
+
+  ngOnInit(): void {
+    // Make the HTTP request:
+    this.httpClient.get('api.football-data.org/v1/competitions/').subscribe(data => {
+      // Read the result field from the JSON response.
+      this.results = data['results'];
+    });
+  }
+*/
+}

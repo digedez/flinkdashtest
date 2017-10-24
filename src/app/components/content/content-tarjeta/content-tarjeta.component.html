@@ -1,0 +1,179 @@
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+  <!-- BEGIN CONTENT BODY -->
+  <div class="page-content">
+
+<!--h1 class="title" style="display:none;">
+  {{title}}
+</h1-->
+
+<!--button (click)="mostrarTitulo()">Mostrar titulo</button-->
+
+    <div class="row">
+      <div class="col-md-12 ">
+        <div class="portlet light">
+          <div class="portlet-title">
+            <div class="caption font-red-sunglo">
+              <span class="font-bg font-blue uppercase" > <strong>CONFIRMACIÓN</strong></span>
+            </div>
+          </div>
+
+          <div class="portlet-body form">
+
+
+
+            <div class="row">
+                <div class="col-sm-4">
+                  <br>
+                    <button type="button" class="btn btn-success">Aprobado</button>
+                </div>
+
+                <div class="col-sm-4">
+                    <span>Num cel: 5555035555 </span> <br>
+                    <button type="button" class="btn btn-info">Llamada exitosa</button>
+                </div>
+
+                <div class="col-sm-4">
+                  <br>
+                    <button type="button" class="btn btn-danger">Denegado</button>
+                </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-md-2 ">
+        <div class="portlet light">
+          <div class="portlet-title">
+            <div class="caption font-red-sunglo">
+              <span class="font-bg font-blue uppercase" > <strong>SOLICITUDES</strong></span>
+            </div>
+
+          </div>
+          <div  id="NoSol" class="portlet-body form">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5 ">
+        <div class="portlet light">
+          <div class="portlet-title">
+            <div class="caption font-red-sunglo">
+              <span class="font-bg font-blue uppercase" > <strong>DATOS DE SOLICITUD</strong></span>
+            </div>
+          </div>
+          <div class="portlet-body form">
+            <form role="form">
+              <div class="form-body">
+
+                <div class="form-group">
+                  <label>Nombre</label>
+                  <input type="text" value="{{ Nombre }}"  class="form-control input-large" readonly>
+                </div>
+                <div class="form-group">
+                  <label>E-mail</label>
+                  <input type="text" value="{{ Email }}" class="form-control input-large" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Dirección</label>
+                  <input type="text" value="{{ Direccion }}" class="form-control input-large" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Teléfono</label>
+                  <input type="text" value="{{ Telefono }}" class="form-control input-large" placeholder="" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Género</label>
+                  <input type="text" value="{{ Genero }}" class="form-control input-large" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Fecha de Nacimiento</label>
+                  <input type="text" value="{{ FechaNacimiento }}" class="form-control input-large" readonly>
+                </div>
+              </div>
+
+            </form>
+            <!--button type="submit" class="btn green">Guardar Cambios</button>
+            <button type="button" class="btn default">Cancelar</button-->
+
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:-15px;" class="col-md-5 col-sm-5">
+        <div class="portlet light ">
+          <div class="portlet-title">
+            <div class="caption caption-md">
+              <span class="caption-subject font-dark bold uppercase">IFE</span>
+            </div>
+          </div>
+          <div class="portlet-body">
+            <img style="width:90%;" src="{{ IFE }}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div style="margin-top:-50px;" class="col-md-5 col-sm-5">
+          <div class="portlet light ">
+            <div class="portlet-title">
+              <div class="caption caption-md">
+                <span class="caption-subject font-dark bold uppercase">FOTO CON IFE</span>
+              </div>
+            </div>
+            <div class="portlet-body">
+              <img style="width:90%;" src="{{ IFEConFoto }}" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="row">
+
+      <div class="col-xs-offset-2 col-md-5 col-sm-5">
+        <div class="portlet light ">
+          <div class="portlet-title">
+            <div class="caption caption-md">
+              <span class="caption-subject font-dark bold uppercase">LUGAR DE SOLICITUD</span>
+            </div>
+          </div>
+          <div class="portlet-body">
+            <!--agm-map [latitude]="lat" [longitude]="lng">
+              <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map-->
+          </div>
+        </div>
+      </div>
+
+
+      <!--div class=" col-md-5 col-sm-5">
+        <div class="portlet light ">
+          <div class="portlet-title">
+            <div class="caption caption-md">
+              <span class="caption-subject font-dark bold uppercase">Aceptar Denegar</span>
+            </div>
+          </div>
+          <div class="portlet-body">
+            <agm-map [latitude]="lat" [longitude]="lng">
+              <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+          </div>
+        </div>
+      </div-->
+
+    </div>
+
+    <!-- END CONTENT -->
+    <!-- BEGIN QUICK SIDEBAR -->
+
+    <!-- END QUICK SIDEBAR -->
+  </div>
+
+</div>
+<!-- END CONTAINER -->
