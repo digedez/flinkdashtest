@@ -14,7 +14,7 @@ export class SidebarflinkComponent implements OnInit {
   Sesiones:string;
   //Total:string;
   //TotalG:string;
-  
+
   homeURL:string = "https://flink-f82f5.firebaseio.com/MixPanel.json";
   // Inject HttpClient into your component or service.
    constructor(private http: Http) {}
@@ -22,19 +22,18 @@ export class SidebarflinkComponent implements OnInit {
    ngOnInit(): void {
      // Make the HTTP request:
      //{"AppFirstOpen":6,"CrearMeta":2,"DetalleGasto":24,"EditarMeta":3,"Sesiones":15}
-
-     this.http.get(this.homeURL).subscribe(data => {
-       // Read the result field from the JSON response.
+    this.http.get(this.homeURL).subscribe(data => {
+    // Read the result field from the JSON response.
     this.AppFirstOpen = data.json()['AppFirstOpen'];
     this.Sesiones = data.json()['Sesiones'];
-       //this.TotalG = data.json()['TotalG'];
-       //this.Total = data.json()['Total'];
+    //this.TotalG = data.json()['TotalG'];
+    //this.Total = data.json()['Total'];
 
      });
    }
 
    public lineChartData:Array<any> = [
-     {data: [0, 0, 0, 0, 0 ], label: 'Usuarios'},
+     {data: [5, 0, 0, 0, 0 ], label: 'Usuarios'},
      //{data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'},
      //{data: [18, 48, 77, 9, 100, 27, 40], label: 'Series C'}
    ];

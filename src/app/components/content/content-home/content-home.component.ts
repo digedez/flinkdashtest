@@ -22,7 +22,7 @@ export class ContentHomeComponent implements OnInit {
 
    ngOnInit(): void {
      // Make the HTTP request:
-     this.http.get(this.homeURL).subscribe(data => {
+       this.http.get(this.homeURL).subscribe(data => {
        // Read the result field from the JSON response.
        this.NumUsr = data.json()['NumUsr'];
        this.NumUsrAct = data.json()['NumUsrAct'];
@@ -34,7 +34,7 @@ export class ContentHomeComponent implements OnInit {
 
 
    public lineChartData:Array<any> = [
-     {data: [5, 19, 20, 33, 50 ], label: 'Usuarios'},
+     {data: [5, 0, 0, 0, 0 ], label: 'Usuarios'},
      //{data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'},
      //{data: [18, 48, 77, 9, 100, 27, 40], label: 'Series C'}
    ];
