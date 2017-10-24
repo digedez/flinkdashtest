@@ -1,0 +1,237 @@
+.riqueza.btn{
+	display: inline-block;
+    position: absolute;
+    top: 1.5%;
+    left: 52%;
+    height: 73px;
+    width: 210px;
+    padding: 5px;
+	color: #FFFFFF;
+  background-color: #f36a5a;
+	margin-top: 0;
+	font-size: 16px;
+	font-color: white;
+}
+@media all and (max-width: 970px){
+
+.riqueza.btn{
+  
+  left: 47%;
+}
+}
+@media all and (max-width: 880px){
+
+.riqueza.btn{
+  
+  left: 40%;
+}
+}
+@media all and (max-width: 740px){
+
+.riqueza.btn{
+  
+  left: 30%;
+}
+}
+
+.dashboard-stat3 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+  display: block;
+
+}
+
+}
+.dashboard-stat3 .display .number {
+  display: inline-block;
+}
+
+.dashboard-stat3 .progress-info {
+  clear: both;
+}
+.dashboard-stat3 .progress-info .progress {
+  margin: 0;
+  height: 5px;
+  clear: both;
+  display: relative;
+}
+.dashboard-stat3 .progress-info .status {
+  margin-top: 5px;
+  font-size: 10px;
+  color: #AAB5BC;
+  font-weight: 600;
+}
+.dashboard-stat3 .progress-info .status .status-title {
+  float: left;
+  display: inline-block;
+}
+.dashboard-stat3 .progress-info .status .status-number {
+  float: right;
+  display: inline-block;
+}
+
+.form-group.form-md-line-input.green .form-control {
+    border-bottom: 1px solid #33cc8a; }
+    .form-group.form-md-line-input.green .form-control.edited:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input.green .form-control.edited:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.green .form-control.form-control-static ~ label:after,
+    .form-group.form-md-line-input.green .form-control.form-control-static ~ .form-control-focus:after, .form-group.form-md-line-input.green .form-control:focus:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input.green .form-control:focus:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.green .form-control.focus:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input.green .form-control.focus:not([readonly]) ~ .form-control-focus:after {
+      background: #33cc8a; }
+    .form-group.form-md-line-input.green .form-control.edited:not([readonly]) ~ label, .form-group.form-md-line-input.green .form-control.form-control-static ~ label, .form-group.form-md-line-input.green .form-control:focus:not([readonly]) ~ label, .form-group.form-md-line-input.green .form-control.focus:not([readonly]) ~ label {
+      color: #33cc8a; }
+    .form-group.form-md-line-input.green .form-control.edited:not([readonly]) ~ i, .form-group.form-md-line-input.green .form-control.form-control-static ~ i, .form-group.form-md-line-input.green .form-control:focus:not([readonly]) ~ i, .form-group.form-md-line-input.green .form-control.focus:not([readonly]) ~ i {
+      color: #33cc8a; }
+    .form-group.form-md-line-input.green .form-control.edited:not([readonly]) ~ .help-block, .form-group.form-md-line-input.green .form-control.form-control-static ~ .help-block, .form-group.form-md-line-input.green .form-control:focus:not([readonly]) ~ .help-block, .form-group.form-md-line-input.green .form-control.focus:not([readonly]) ~ .help-block {
+      color: #33cc8a; }
+  .form-group.form-md-line-input.green .input-group-addon {
+    color: #33cc8a;
+    border-bottom: 1px solid #33cc8a; }
+  .form-group.form-md-line-input.green label {
+    color: #33cc8a; }
+
+.form-group.form-md-line-input.red .form-control {
+    border-bottom: 1px solid #e53446; }
+    .form-group.form-md-line-input.red .form-control.edited:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input.red .form-control.edited:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.red .form-control.form-control-static ~ label:after,
+    .form-group.form-md-line-input.red .form-control.form-control-static ~ .form-control-focus:after, .form-group.form-md-line-input.red .form-control:focus:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input.red .form-control:focus:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.red .form-control.focus:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input.red .form-control.focus:not([readonly]) ~ .form-control-focus:after {
+      background: #e53446; }
+    .form-group.form-md-line-input.red .form-control.edited:not([readonly]) ~ label, .form-group.form-md-line-input.red .form-control.form-control-static ~ label, .form-group.form-md-line-input.red .form-control:focus:not([readonly]) ~ label, .form-group.form-md-line-input.red .form-control.focus:not([readonly]) ~ label {
+      color: #e53446; }
+    .form-group.form-md-line-input.red .form-control.edited:not([readonly]) ~ i, .form-group.form-md-line-input.green .form-control.form-control-static ~ i, .form-group.form-md-line-input.red .form-control:focus:not([readonly]) ~ i, .form-group.form-md-line-input.red .form-control.focus:not([readonly]) ~ i {
+      color: #e53446; }
+    .form-group.form-md-line-input.red .form-control.edited:not([readonly]) ~ .help-block, .form-group.form-md-line-input.red .form-control.form-control-static ~ .help-block, .form-group.form-md-line-input.red .form-control:focus:not([readonly]) ~ .help-block, .form-group.form-md-line-input.red .form-control.focus:not([readonly]) ~ .help-block {
+      color: #e53446; }
+  .form-group.form-md-line-input.red .input-group-addon {
+    color: #e53446;
+    border-bottom: 1px solid #e53446; }
+  .form-group.form-md-line-input.red label {
+    color: #e53446; }
+
+
+.nueva-meta{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 360%;
+}
+
+@media all and (max-width: 1320px){
+
+.nueva-meta{
+  
+  left: 300%;
+}
+}
+@media all and (max-width: 1185px){
+
+.nueva-meta{
+  
+  left: 240%;
+}
+}
+@media all and (max-width: 1085px){
+
+.nueva-meta{
+  
+  left: 220%;
+}
+}
+@media all and (max-width: 1010px){
+
+.nueva-meta{
+  
+  left: 200%;
+}
+}
+@media all and (max-width: 680px){
+
+.nueva-meta{
+  
+  left: 120%;
+}
+}
+@media all and (max-width: 520px){
+
+.nueva-meta{
+  
+  left: 80%;
+}
+}
+@media all and (max-width: 430px){
+
+.nueva-meta{
+  
+  left: 50%;
+}
+}
+
+
+
+.btn.btn-outline.blue-trans {
+  border-color: #00A9c5;
+  color: #00A9C5;
+  background: none;
+  left: 115%;
+  position: relative; }
+  .btn.btn-outline.blue-trans:hover, .btn.btn-outline.blue-trans:active, .btn.btn-outline.blue-trans:active:hover, .btn.btn-outline.blue-trans:active:focus, .btn.btn-outline.blue-trans:focus, .btn.btn-outline.blue-trans.active {
+    border-color: #00A9C5;
+    color: #FFFFFF;
+    background-color:#00A9C5; }
+
+@media all and (max-width: 1100px){
+
+.btn.btn-outline.blue-trans{
+  
+  left: 80%;
+}
+}
+@media all and (max-width: 760px){
+
+.btn.btn-outline.blue-trans{
+  
+  left: 60%;
+}
+}
+@media all and (max-width: 740px){
+
+.btn.btn-outline.blue-trans{
+  
+  left: 40%;
+}
+}
+@media all and (max-width: 630px){
+
+.btn.btn-outline.blue-trans{
+  
+  left: 20%;
+}
+}
+
+.avatar{
+  color: #5A5A68;
+  text-align: center;
+  font-size: 20px;
+}
+
+.table-advance td.highlight div.azul {
+    border-left: 5px solid #00a9c5;
+}
+.table-advance td.highlight div.amarillo {
+    border-left: 5px solid #ffb51f;
+}
+.table-advance td.highlight div.rojo {
+    border-left: 5px solid #e53446;
+}
+
+
+
+
+/* here you can put your own css to customize and override the theme */
